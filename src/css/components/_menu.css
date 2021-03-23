@@ -1,0 +1,28 @@
+.menu {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 100px;
+    text-align: center;
+}
+
+.menu_item {
+    box-shadow: 0px 0px 10px 0px var(--background);
+    border-radius: 10px;
+    padding: 2em 3em;
+    margin: 10px;
+    position: relative;
+}
+
+h2 {
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 19px;
+    background-color: var(--priceTag);
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.completeOrder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A4E726;
+}

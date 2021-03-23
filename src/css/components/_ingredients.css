@@ -1,0 +1,14 @@
+.ingredients {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 50%;
+}
+
+.ingredient {
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+

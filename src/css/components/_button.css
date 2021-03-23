@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  background-color: var(--orange);
+  border-radius: 10px;
+  padding: 10px 20px;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color var(--duration) ease-in-out var(--duration) ease-in-out;
+  border: 1px solid transparent;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:black;
+}
+
+.button:hover {
+  background-color: var(--orangeDark);
+  transform: translateY(1px);
+}
+
+.cta {
+  padding-bottom: 1em;
+  padding: 10px 15px;
+}
+
+.disabled {
+  background-color: inherit;
+  box-shadow: 0 0 1px gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.disabled:hover {
+    background-color: none;
+}
+
+.complete {
+  padding: 1px 10px;
+  margin: 0;
+  background-color: var(--btn-complete);
+  border: 0;
+  border-radius: 10px;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color:white
+}
+

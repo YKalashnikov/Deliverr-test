@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Syne+Mono&display=swap');
+
+:root {
+  padding: 0;
+  margin: 0;
+
+  --black: #232323;
+  --background: #bf9050;
+  --gray-line: #f6f6f6;
+  --orange: #fe5f1e;
+  --orangeDark: #d14c17;
+  --priceTag: #D31A2A;
+  --container-width: 90%;
+  --btn-complete: #01C5F7;
+  --duration: 0.15s;
+  font-family: 'Syne Mono', monospace;
+}
+
+body {
+  background-color: var(--background);
+  padding: 50px 0;
+}
+
+.wrapper {
+    width: calc(100vw - 100px);
+    max-width: 1400px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+  }
